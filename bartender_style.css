@@ -1,0 +1,124 @@
+*{
+  font-size: 1em;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  filter:invert(100%);
+  background-color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+FORM{
+  display: inline;
+}
+
+.top{
+  position:relative;
+  font-family: '나눔바른고딕 Light';
+}
+
+.title::before{
+  content:"";
+  background-image: url(./images/title.png);
+  background-size: cover;
+  position: absolute;
+  height: 13em;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity:0.5;
+  top: 1.2em;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+h1{
+  text-align: center;
+  position:relative;
+  vertical-align: middle;
+  font-size: 4.0em;
+  margin-top: 1em;
+  margin-bottom: 1.25em;
+  font-family: 'Ink Free';
+  letter-spacing: 3px;
+}
+
+.navs{
+  display: table;
+  width: 95%;
+  table-layout: fixed;
+  border: 1px solid black;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-left: 0px;
+  border-spacing: 3px;
+}
+
+.nav{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 7px;
+  border: 1px solid black;
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 1.15em;
+  letter-spacing: 2px;
+}
+
+.contents{
+  margin-left: 22%;
+  margin-right: 22%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: '나눔바른고딕 Light';
+}
+
+.contents li{
+  margin: 10px 0;
+}
+
+.contact_link a{
+  text-decoration: underline;
+}
+
+.history_write form{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+}
+
+.history_write textarea{
+  margin-left: 5%;
+  resize: none;
+  width: 95%;
+}
+
+.history_write input[type=submit]{
+  margin-left: 5%;
+}
+
+.contents .menu_modify_text input[type=text]{
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.bottom{
+  text-align: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  border-top: 1px black solid;
+  font-family: '나눔바른고딕 Light';
+}
