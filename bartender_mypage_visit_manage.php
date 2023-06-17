@@ -1,6 +1,6 @@
 <?php require_once('lib/header.php'); ?>
   <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $visit_request_list = "SELECT visit_request.request_id, member_nickname, visit_time
                         FROM member
                         JOIN visit_request
