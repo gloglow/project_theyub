@@ -1,6 +1,6 @@
 <?php require_once('lib/header.php'); ?>
   <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $visit_request = "INSERT INTO visit_request (member_id)
                    VALUES ('{$_SESSION['login_id']}')";
   $result = mysqli_query($conn, $visit_request);
