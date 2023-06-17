@@ -2,7 +2,7 @@
   <h2>- MENU -</h2>
   <p>
     <?php
-    $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+    $conn = mysqli_connect("*", "*", "*", "*");
     $menu_premodify = "SELECT *
                     FROM menu
                     WHERE menu_id='{$_POST['menu_modify_id']}'";
