@@ -2,7 +2,7 @@
   <h2>- MENU -</h2>
   <p>
     <?php
-    $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+    $conn = mysqli_connect("*", "*", "*", "*");
     $menu_view = "SELECT *
                     FROM menu";
     $result = mysqli_query($conn, $menu_view);
