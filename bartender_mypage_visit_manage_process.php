@@ -1,6 +1,6 @@
 <?php require_once('lib/header.php'); ?>
   <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $visit_request_delete = "DELETE FROM visit_request WHERE request_id={$_POST['request_id']}";
   $member_visit_increment = "UPDATE member SET member_visit = member_visit+1
                             WHERE member_nickname = '{$_POST['member_nickname']}'";
