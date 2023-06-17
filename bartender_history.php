@@ -2,7 +2,7 @@
   <h2>- HISTORY -</h2>
 <p>
 <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $history_view = "SELECT history_id, history_content, history.member_id, history_time, member_nickname
                    FROM history
                    JOIN member
