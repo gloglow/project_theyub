@@ -1,6 +1,6 @@
 <?php require_once('lib/header.php'); ?>
   <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $visit_request_delete = "DELETE FROM visit_request";
 
   $result1 = mysqli_query($conn, $visit_request_delete);
