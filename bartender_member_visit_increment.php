@@ -1,6 +1,6 @@
 <?php require_once('lib/header.php'); ?>
   <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $member_visit_increment = "UPDATE member SET member_visit=member_visit+1
                   where member_id='{$_SESSION['login_id']}'";
 
