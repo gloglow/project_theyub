@@ -1,6 +1,6 @@
 <?php require_once('lib/header.php'); ?>
   <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $filtered_nickname=mysqli_real_escape_string($conn, $_POST['modified_nickname']);
   $filtered_pw=mysqli_real_escape_string($conn, $_POST['modified_pw']);
   $filtered_email=mysqli_real_escape_string($conn, $_POST['modified_email']);
