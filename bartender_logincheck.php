@@ -1,6 +1,6 @@
 <?php require_once('lib/header.php'); ?>
 <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $filtered_id=mysqli_real_escape_string($conn, $_POST['login_id']);
   $filtered_pw=mysqli_real_escape_string($conn, $_POST['login_pw']);
   $logincheck = "SELECT * FROM member WHERE member_id='{$filtered_id}' AND member_pw='{$filtered_pw}'";
