@@ -1,7 +1,7 @@
 <?php require_once('lib/header.php'); ?>
 <p>
 <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $menu_delete = "DELETE FROM menu WHERE menu_id = {$_POST['menu_delete_id']}";
 
   $result = mysqli_query($conn, $menu_delete);
