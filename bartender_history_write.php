@@ -1,6 +1,6 @@
 <?php require_once('lib/header.php'); ?>
 <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $filtered_history=mysqli_real_escape_string($conn, $_POST['history_input']);
   $history_write = "INSERT INTO history (history_content, member_id)
                    VALUES ('{$filtered_history}', '{$_SESSION['login_id']}')";
