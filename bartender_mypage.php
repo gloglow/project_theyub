@@ -1,7 +1,7 @@
 <?php require_once('lib/header.php'); ?>
   <h2>- MYPAGE -</h2>
   <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $member_info = "SELECT * FROM member WHERE member_id='{$_SESSION['login_id']}'";
 
   $result = mysqli_query($conn, $member_info);
