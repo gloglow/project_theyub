@@ -1,7 +1,7 @@
 <?php require_once('lib/header.php'); ?>
 <p>
 <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $review_delete = "DELETE FROM review WHERE review_id = {$_POST['review_id']}";
 
   $result = mysqli_query($conn, $review_delete);
