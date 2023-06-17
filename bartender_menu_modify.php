@@ -2,7 +2,7 @@
   <h2>- MENU -</h2>
   <p>
     <?php
-    $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+    $conn = mysqli_connect("*", "*", "*", "*");
     $filtered_menu_name=mysqli_real_escape_string($conn, $_POST['menu_name']);
     $filtered_alcoholper=mysqli_real_escape_string($conn, $_POST['alcoholper']);
     $filtered_flavor=mysqli_real_escape_string($conn, $_POST['flavor']);
