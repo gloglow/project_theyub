@@ -1,6 +1,6 @@
 <?php require_once('lib/header.php'); ?>
 <?php
-$conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+$conn = mysqli_connect("*", "*", "*", "*");
 $review_write = "INSERT INTO review (menu_id, review_rate, review_content, member_id)
                 VALUES ({$_GET['menu_id']}, {$_POST['review_rate']}, '{$_POST['review_content']}', '{$_SESSION['login_id']}')";
 
