@@ -1,7 +1,7 @@
 <?php require_once('lib/header.php'); ?>
 <p>
 <?php
-  $conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+  $conn = mysqli_connect("*", "*", "*", "*");
   $history_delete = "DELETE FROM history WHERE history_id = {$_POST['history_delete_id']}";
 
   $result = mysqli_query($conn, $history_delete);
