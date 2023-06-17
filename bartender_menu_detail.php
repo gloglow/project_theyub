@@ -1,6 +1,6 @@
 <?php require_once('lib/header.php'); ?>
 <?php
-$conn = mysqli_connect("localhost", "silvestern", "siterntlxjs98*", "silvestern");
+$conn = mysqli_connect("*", "*", "*", "*");
 $menu_view = "SELECT * FROM menu WHERE menu_id = {$_GET['menu_id']}";
 $review_view = "WITH pointed_menu AS
                 (SELECT * FROM review WHERE menu_id = {$_GET['menu_id']})
